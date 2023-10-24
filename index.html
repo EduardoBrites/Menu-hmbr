@@ -6,17 +6,41 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="shurtcu icon" href="img/icon.png">
     <title>Loja</title>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <nav>
-        <ul>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-        </ul>
-    </nav>
+    <header class="header">
+        <a id="logo" href="#">LOGO</a>
+        <nav class="nav">
+            <button id="btnMob">MENU
+                <span id="hamburg"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#empresa">EMPRESA</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+            <input type="checkbox" class="checkbox" id="switch">
+            <label class="label" for="switch">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>HOME</h1>
+    </section>
+
+    <section id="empresa">
+        <h1>EMPRESA</h1>
+    </section>
+
+    <section id="contato">
+        <h1>CONTATO</h1>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
